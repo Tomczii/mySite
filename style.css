@@ -1,0 +1,144 @@
+
+body
+{
+	align: center;
+	background-color: Black;
+	font-family: Verdana;
+	font-size:16px;
+	color: white;
+width:1000px;
+ 
+	margin: auto;  
+	top: 0;  
+	right: 0;  
+	bottom: 0;  
+	left: 0;
+
+}
+<style>
+     
+    	
+	  .container{
+  display: flex;
+  background-color: #f1f1f1;
+  height: 190px;
+  max-width: 400px;
+  align: center;
+}
+	  
+	  #zdj
+{
+	
+	float: left;
+	Height:160px;
+	width: 160px;
+			
+}
+
+#logo
+{
+	
+ 
+  
+	align: center;
+	width: 840px;
+	background-color: #262626;
+	
+	
+	float: left;
+	Height:160px;
+}
+.tile2
+{
+
+		font-size:25px;
+	color: black;
+	padding: 26px;
+	float: left;
+	background-color: #262626;
+	text-align: center;
+	  margin-left: auto;
+		  		  margin-right: auto;
+			  
+}
+a{
+	color: blue;
+	text-decoration: none;
+	font-size:25px;
+}
+a:visited{
+	color: white;
+	font-size:25px;
+}
+
+#przecinek
+{
+	clear: both;
+	
+}
+
+#content
+{
+	
+	 float: left;
+	 width: 436px;
+	Height:636px;
+	 padding: 2px;
+	 background-color: #262626;
+			 
+}
+		  #nav
+		  {
+			  float: left;
+			  width: 320px;
+			  Height:600px;
+	 padding: 20px;
+			  background-color: #262626;
+		  }
+	  
+	  #ad
+	  {
+		
+		float: left; 
+width: 160px;
+	 padding: 20px;	
+	 Height:600px;
+	 background-color: #262626;
+	  }
+	  #boczna
+{
+	
+	 float: left;
+	 width: 996px;
+	Height:800px;
+	 padding: 2px;
+	 background-color: #262626;
+			 
+}
+ #bocznaszkolenia
+{
+	
+	 float: left;
+	 width: 656px;
+	Height:800px;
+	 padding: 2px;
+	 background-color: #262626;
+			 
+}
+	  #stopka
+	  {
+		  
+		clear: both; 
+		 padding: 20px;
+		  background-color: #262626;
+		  width: 960px
+	  }
+	  
+	 body1* {margin: 0; padding: 0;}
+#body {float: left; width: 100%;}
+#inside {margin-left: 150px; margin-right: 200px;}
+#side1 {float: left; width: 150px; margin-left: -100%;}
+#side2 {float: left; width: 200px; margin-left: -200px;}
+
+	 
+    </style>
