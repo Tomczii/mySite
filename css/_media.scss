@@ -1,0 +1,172 @@
+@media (min-width: 768px) {
+	.navbar-brand {
+		font-size: 30px;
+	}
+	.nav-link {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 35px;
+		margin: 5px;
+		margin-bottom: 10px;
+	}
+
+	.education {
+		display: inline-block;
+		width: 100vw;
+
+		.education-info {
+			height: 50vw;
+			.edu-header {
+				font-size: 35px;
+			}
+			.edu {
+				display: inline-block;
+
+				top: 0;
+				p {
+					font-size: 25px;
+				}
+			}
+			.eduimg {
+				display: inline-block;
+				height: 30vw;
+				width: 30vw;
+			}
+		}
+	}
+	.experience {
+		.card {
+			width: 48vw;
+			display: inline-block;
+
+			.card-img-top {
+				height: 30vh;
+			}
+			.card-title {
+				font-size: 30px;
+			}
+			.card-text {
+				font-size: 25px;
+				height: 72vw;
+			}
+		}
+	}
+	.courses-text {
+		font-size: 30px;
+	}
+	p {
+		font-size: 25px;
+	}
+	.additional {
+		ul {
+			font-size: 30px;
+			li {
+				font-size: 30px;
+			}
+		}
+		h3 {
+			font-size: 30px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		span {
+			font-size: 25px;
+		}
+	}
+
+	.aboutMe {
+		.mephoto {
+			width: 15%;
+			height: 10%;
+			margin: 5px;
+		}
+		p {
+			font-size: 25px;
+		}
+	}
+	.footer__bottom-text {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 992px) {
+	.imgaditional {
+		width: 60%;
+		height: 70%;
+	}
+	.experience {
+		.card {
+			.card-text {
+				height: 50vw;
+			}
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.education {
+		.education-info {
+			.educase {
+				display: inline-block;
+				width: 32%;
+
+				.eduimg {
+					display: block;
+					width: 30vw;
+					height: 10vw;
+
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+	.experience {
+		.card {
+			width: 24vw;
+
+			.card-text {
+				height: 55vw;
+			}
+		}
+	}
+}
+@media (min-width: 1600px) {
+	.experience {
+		.card {
+			.card-text {
+				height: 30vw;
+			}
+		}
+	}
+
+	.additional {
+		.courses-text {
+			height: 100vh;
+			width: 100vw;
+			display: inline-block;
+			.imgaditional {
+				width: 40%;
+				float: left;
+				margin: 3px;
+			}
+			p {
+				margin: 5px;
+			}
+		}
+	}
+
+	.aboutMe {
+		.mephoto {
+			width: 13%;
+			height: 3%;
+			margin: 5px;
+		}
+		p {
+			font-size: 25px;
+		}
+	}
+}

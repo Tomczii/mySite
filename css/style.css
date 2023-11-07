@@ -1,0 +1,285 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.83);
+  color: #9c9c9c;
+}
+
+h2 {
+  color: #ffffff;
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 30px;
+  left: calc(50% - 100px);
+}
+
+.navbar {
+  top: -1px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.bg-body-tert3iary {
+  background-color: rgb(138, 207, 219);
+}
+
+.nav-link {
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  color: #000000;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  color: #ffffff;
+}
+
+.education {
+  text-align: center;
+  min-height: 50vh;
+  top: 100px;
+  height: 150vh;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 1px;
+}
+.education .educase {
+  margin: 2px;
+}
+.education .educase .edu-header {
+  font-weight: bold;
+}
+.education .educase .edu {
+  display: inline-block;
+  top: 0;
+  height: 49%;
+  width: 45%;
+  font-size: 18px;
+  text-align: center;
+}
+.education .educase .eduimg {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  top: 10px;
+  width: 53%;
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.83);
+}
+
+.card {
+  width: 98vw;
+}
+
+.card-title {
+  color: #9c9c9c;
+}
+
+.card-text {
+  color: #9c9c9c;
+  height: 40vw;
+}
+
+.courses {
+  text-align: center;
+}
+
+.bg-succeshs {
+  background-color: #5db61c;
+}
+
+.step {
+  padding-top: 5px;
+  width: 98vw;
+  background-color: rgb(65, 64, 45);
+}
+
+.imgaditional {
+  width: 98vw;
+  height: 100vh;
+}
+
+.aboutMe {
+  top: 100px;
+  position: relative;
+  text-align: center;
+}
+.aboutMe .mephoto {
+  width: 100px;
+  float: left;
+}
+
+footer {
+  background-color: rgb(65, 64, 45);
+  position: relative;
+  display: inline-block;
+  width: 100vw;
+}
+footer .fa-brands {
+  display: inline;
+  position: relative;
+  color: #9c9c9c;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .nav-link {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 35px;
+    margin: 5px;
+    margin-bottom: 10px;
+  }
+  .education {
+    display: inline-block;
+    width: 100vw;
+  }
+  .education .education-info {
+    height: 50vw;
+  }
+  .education .education-info .edu-header {
+    font-size: 35px;
+  }
+  .education .education-info .edu {
+    display: inline-block;
+    top: 0;
+  }
+  .education .education-info .edu p {
+    font-size: 25px;
+  }
+  .education .education-info .eduimg {
+    display: inline-block;
+    height: 30vw;
+    width: 30vw;
+  }
+  .experience .card {
+    width: 48vw;
+    display: inline-block;
+  }
+  .experience .card .card-img-top {
+    height: 30vh;
+  }
+  .experience .card .card-title {
+    font-size: 30px;
+  }
+  .experience .card .card-text {
+    font-size: 25px;
+    height: 72vw;
+  }
+  .courses-text {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .additional ul {
+    font-size: 30px;
+  }
+  .additional ul li {
+    font-size: 30px;
+  }
+  .additional h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .additional span {
+    font-size: 25px;
+  }
+  .aboutMe .mephoto {
+    width: 15%;
+    height: 10%;
+    margin: 5px;
+  }
+  .aboutMe p {
+    font-size: 25px;
+  }
+  .footer__bottom-text {
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .imgaditional {
+    width: 60%;
+    height: 70%;
+  }
+  .experience .card .card-text {
+    height: 50vw;
+  }
+}
+@media (min-width: 1200px) {
+  .education .education-info .educase {
+    display: inline-block;
+    width: 32%;
+  }
+  .education .education-info .educase .eduimg {
+    display: block;
+    width: 30vw;
+    height: 10vw;
+  }
+  .education .education-info .educase .eduimg img {
+    width: 100%;
+    height: 100%;
+  }
+  .experience .card {
+    width: 24vw;
+  }
+  .experience .card .card-text {
+    height: 55vw;
+  }
+}
+@media (min-width: 1600px) {
+  .experience .card .card-text {
+    height: 30vw;
+  }
+  .additional .courses-text {
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+  }
+  .additional .courses-text .imgaditional {
+    width: 40%;
+    float: left;
+    margin: 3px;
+  }
+  .additional .courses-text p {
+    margin: 5px;
+  }
+  .aboutMe .mephoto {
+    width: 13%;
+    height: 3%;
+    margin: 5px;
+  }
+  .aboutMe p {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */

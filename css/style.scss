@@ -1,0 +1,149 @@
+@import './_colors.scss';
+
+html {
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+button {
+	border: none;
+	cursor: pointer;
+}
+
+body {
+	background-color: $first-color;
+	color: $black;
+}
+h2 {
+	color: $white;
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 30px;
+	left: calc(50% - 100px);
+}
+
+//nav
+.navbar {
+	top: -1px;
+	position: fixed;
+	width: 100%;
+
+	z-index: 5;
+}
+.bg-body-tert3iary {
+	background-color: $navcolor;
+}
+.nav-link {
+	color: $navcolor-secondary;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navbar-brand {
+	color: $navcolor-secondary;
+	font-weight: bold;
+}
+.navbar-toggler {
+	color: $white;
+}
+.navbar-toggler-icon {
+	color: $white;
+}
+//////////////
+///////////////education
+///////////
+
+.education {
+	text-align: center;
+	min-height: 50vh;
+	top: 100px;
+	height: 150vh;
+	position: relative;
+	margin-bottom: 30px;
+	padding: 1px;
+	.educase {
+		margin: 2px;
+		.edu-header {
+			font-weight: bold;
+		}
+
+		.edu {
+			display: inline-block;
+			top: 0;
+			height: 49%;
+			width: 45%;
+			font-size: 18px;
+			text-align: center;
+		}
+		.eduimg {
+			position: relative;
+			overflow: hidden;
+			display: inline-block;
+			top: 10px;
+			width: 53%;
+		}
+	}
+}
+
+/////experience
+///
+///
+.card-body {
+	background-color: $first-color;
+}
+.card {
+	width: 98vw;
+}
+.card-title {
+	color: $black;
+}
+.card-text {
+	color: $black;
+	height: 40vw;
+}
+//courses
+.courses {
+	text-align: center;
+}
+.bg-succeshs {
+	background-color: $progressColor;
+}
+.step {
+	padding-top: 5px;
+	width: 98vw;
+	background-color: $secondary-color;
+}
+
+.imgaditional {
+	width: 98vw;
+	height: 100vh;
+}
+.aboutMe {
+	top: 100px;
+	position: relative;
+	text-align: center;
+
+	.mephoto {
+		width: 100px;
+
+		float: left;
+	}
+}
+footer {
+	background-color: $secondary-color;
+	position: relative;
+	display: inline-block;
+	width: 100vw;
+
+	.fa-brands {
+		display: inline;
+		position: relative;
+		color: $black;
+		font-size: 30px;
+	}
+}
+@import './_media.scss';
